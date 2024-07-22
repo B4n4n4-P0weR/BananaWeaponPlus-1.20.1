@@ -27,7 +27,10 @@ public class ModCreativeModTabs {
 
                         //Tridents
                         pOutput.accept(ModItems.HELL_TRIDENT_HEAD.get());
+                        pOutput.accept(ModItems.HELL_TRIDENT.get());
+
                         pOutput.accept(ModItems.END_TRIDENT_HEAD.get());
+                        pOutput.accept(ModItems.END_TRIDENT.get());
                     })
                     .build());
 
