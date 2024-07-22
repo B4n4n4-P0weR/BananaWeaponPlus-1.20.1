@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "banana_weapon_plus:ruby"
+    }
+  },
+  "result": {
+    "item": "banana_weapon_plus:ruby_block"
+  }
+}
