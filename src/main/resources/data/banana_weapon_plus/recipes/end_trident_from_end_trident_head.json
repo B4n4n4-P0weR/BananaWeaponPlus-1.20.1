@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " h",
+    "t "
+  ],
+  "key": {
+    "h": {
+      "item": "banana_weapon_plus:end_trident_head"
+    },
+    "t": {
+      "item": "minecraft:trident"
+    }
+  },
+  "result": {
+    "item": "banana_weapon_plus:end_trident"
+  }
+}
