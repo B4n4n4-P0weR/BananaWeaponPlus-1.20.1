@@ -21,6 +21,11 @@ public class ModBlocks {
     public  static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.EMERALD_BLOCK)));
 
+    public  static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.EMERALD_ORE)));
+    public  static final RegistryObject<Block> DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_EMERALD_ORE)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
