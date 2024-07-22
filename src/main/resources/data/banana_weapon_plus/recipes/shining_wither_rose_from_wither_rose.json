@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "n",
+    "w"
+  ],
+  "key": {
+    "w": {
+      "item": "minecraft:wither_rose"
+    },
+    "n": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "banana_weapon_plus:shining_wither_rose"
+  }
+}
