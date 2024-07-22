@@ -1,5 +1,7 @@
 {
   "item.banana_weapon_plus.hell_trident_head": "Hell trident head",
   "item.banana_weapon_plus.end_trident_head": "End trident head",
-  "item.banana_weapon_plus.ruby": "Ruby"
+  "item.banana_weapon_plus.ruby": "Ruby",
+
+  "creativetab.banana_weapon_plus_tub": "Banana Weapon Plus"
 }
