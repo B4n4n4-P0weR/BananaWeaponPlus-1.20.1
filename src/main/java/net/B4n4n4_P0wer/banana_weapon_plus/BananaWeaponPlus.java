@@ -1,6 +1,8 @@
 package net.B4n4n4_P0wer.banana_weapon_plus;
 
 import com.mojang.logging.LogUtils;
+import net.B4n4n4_P0wer.banana_weapon_plus.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -21,7 +23,7 @@ public class BananaWeaponPlus {
     public BananaWeaponPlus() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-//        ModItems.register(modEventBus);
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -34,7 +36,10 @@ public class BananaWeaponPlus {
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.RUBY);
 
+        }
     }
 
     @SubscribeEvent
