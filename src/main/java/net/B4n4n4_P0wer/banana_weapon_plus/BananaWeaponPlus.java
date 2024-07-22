@@ -37,6 +37,8 @@ public class BananaWeaponPlus {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.HELL_TRIDENT_HEAD);
+            event.accept(ModItems.END_TRIDENT_HEAD);
             event.accept(ModItems.RUBY);
 
         }
