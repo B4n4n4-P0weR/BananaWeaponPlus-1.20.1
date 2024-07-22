@@ -1,6 +1,7 @@
 package net.B4n4n4_P0wer.banana_weapon_plus;
 
 import com.mojang.logging.LogUtils;
+import net.B4n4n4_P0wer.banana_weapon_plus.block.ModBlocks;
 import net.B4n4n4_P0wer.banana_weapon_plus.item.ModCreativeModTabs;
 import net.B4n4n4_P0wer.banana_weapon_plus.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -27,6 +28,7 @@ public class BananaWeaponPlus {
         ModCreativeModTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

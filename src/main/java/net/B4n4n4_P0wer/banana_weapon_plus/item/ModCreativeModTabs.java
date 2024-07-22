@@ -1,6 +1,7 @@
 package net.B4n4n4_P0wer.banana_weapon_plus.item;
 
 import net.B4n4n4_P0wer.banana_weapon_plus.BananaWeaponPlus;
+import net.B4n4n4_P0wer.banana_weapon_plus.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,8 @@ public class ModCreativeModTabs {
 
                         pOutput.accept(ModItems.HELL_TRIDENT_HEAD.get());
                         pOutput.accept(ModItems.END_TRIDENT_HEAD.get());
+
+                        pOutput.accept(ModBlocks.RUBY_BLOCK.get());
                     })
                     .build());
 
