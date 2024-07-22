@@ -23,6 +23,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> HELL_TRIDENT  = ITEMS.register("hell_trident",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SHINING_WITHER_ROSE  = ITEMS.register("shining_wither_rose",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
