@@ -1,19 +1,15 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [
-    " #",
-    "X "
-  ],
-  "key": {
-    "#": {
-      "item": "banana_weapon_plus:hell_trident_head"
-    },
-    "X": {
-      "item": "minecraft:trident"
-    }
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "banana_weapon_plus:hell_trident_head"
+  },
+  "base": {
+    "item": "minecraft:trident"
   },
   "result": {
     "item": "banana_weapon_plus:hell_trident"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
   }
 }
