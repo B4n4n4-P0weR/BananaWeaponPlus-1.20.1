@@ -4,7 +4,6 @@ import com.mojang.logging.LogUtils;
 import net.B4n4n4_P0wer.banana_weapon_plus.block.ModBlocks;
 import net.B4n4n4_P0wer.banana_weapon_plus.item.ModCreativeModTabs;
 import net.B4n4n4_P0wer.banana_weapon_plus.item.ModItems;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
