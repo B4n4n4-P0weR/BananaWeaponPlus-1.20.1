@@ -15,7 +15,7 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, BananaWeaponPlus.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> BANANA_WEAPON_PLUS_TUB = CREATIVE_MODE_TABS.register("banana_weapon_plus_tub",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RUBY.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.HELL_TRIDENT.get()))
                     .title(Component.translatable("creativetab.banana_weapon_plus_tub"))
                     .displayItems((pParameters, pOutput) -> {
 

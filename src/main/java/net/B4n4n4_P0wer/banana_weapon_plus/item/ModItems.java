@@ -11,9 +11,6 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, BananaWeaponPlus.MOD_ID);
 
-    public static final RegistryObject<Item> RUBY  = ITEMS.register("ruby",
-            () -> new Item(new Item.Properties()));
-
     public static final RegistryObject<Item> END_TRIDENT_HEAD  = ITEMS.register("end_trident_head",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> END_TRIDENT  = ITEMS.register("end_trident",
