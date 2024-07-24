@@ -4,17 +4,18 @@ import com.mojang.logging.LogUtils;
 import net.B4n4n4_P0wer.banana_weapon_plus.block.ModBlocks;
 import net.B4n4n4_P0wer.banana_weapon_plus.item.ModCreativeModTabs;
 import net.B4n4n4_P0wer.banana_weapon_plus.item.ModItems;
-import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
-import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
+
+//import net.minecraftforge.eventbus.api.SubscribeEvent;
+//import net.minecraftforge.eventbus.api.SubscribeEvent;
+//import net.minecraftforge.eventbus.api.SubscribeEvent;
+//import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 
 @Mod(BananaWeaponPlus.MOD_ID)
 public class BananaWeaponPlus {
@@ -43,16 +44,16 @@ public class BananaWeaponPlus {
 
     }
 
-    @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event) {
+//    @SubscribeEvent
+//    public void onServerStarting(ServerStartingEvent event) {
 
-    }
+//    }
 
-    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {
+//    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+//    public static class ClientModEvents {
+//        @SubscribeEvent
+//        public static void onClientSetup(FMLClientSetupEvent event) {
 
-        }
-    }
+//        }
+//    }
 }
