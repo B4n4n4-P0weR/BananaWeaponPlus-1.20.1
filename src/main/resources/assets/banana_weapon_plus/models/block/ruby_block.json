@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "banana_weapon_plus:block/ruby_block"
-  }
-}
