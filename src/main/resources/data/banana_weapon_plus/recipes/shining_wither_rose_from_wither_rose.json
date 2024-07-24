@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "n",
-    "w"
+    "#",
+    "X"
   ],
   "key": {
-    "w": {
+    "#": {
       "item": "minecraft:wither_rose"
     },
-    "n": {
+    "X": {
       "item": "minecraft:nether_star"
     }
   },
