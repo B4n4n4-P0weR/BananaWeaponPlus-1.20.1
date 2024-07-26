@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:gold_block"
+    },
+    "X": {
+      "item": "minecraft:red_wool"
+    }
+  },
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "result": {
+    "item": "banana_weapon_plus:hell_of_a_life"
+  },
+  "show_notification": true
+}
