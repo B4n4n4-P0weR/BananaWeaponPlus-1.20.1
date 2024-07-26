@@ -15,15 +15,15 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, BananaWeaponPlus.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> BANANA_WEAPON_PLUS_TUB = CREATIVE_MODE_TABS.register("banana_weapon_plus_tub",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.HELL_TRIDENT.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.NETHER_TRIDENT.get()))
                     .title(Component.translatable("creativetab.banana_weapon_plus_tub"))
                     .displayItems((pParameters, pOutput) -> {
 
 //                        pOutput.accept(ModBlocks.RUBY_BLOCK.get());
 
                         //Tridents
-                        pOutput.accept(ModItems.HELL_TRIDENT_HEAD.get());
-                        pOutput.accept(ModItems.HELL_TRIDENT.get());
+                        pOutput.accept(ModItems.NETHER_TRIDENT_HEAD.get());
+                        pOutput.accept(ModItems.NETHER_TRIDENT.get());
 
                         pOutput.accept(ModItems.END_TRIDENT_HEAD.get());
                         pOutput.accept(ModItems.END_TRIDENT.get());

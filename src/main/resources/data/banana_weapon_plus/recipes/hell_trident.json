@@ -1,13 +1,13 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "banana_weapon_plus:hell_trident_head"
+    "item": "banana_weapon_plus:nether_trident_head"
   },
   "base": {
     "item": "minecraft:trident"
   },
   "result": {
-    "item": "banana_weapon_plus:hell_trident"
+    "item": "banana_weapon_plus:nether_trident"
   },
   "template": {
     "item": "minecraft:netherite_upgrade_smithing_template"
