@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "banana_weapon_plus:item/hell_of_a_life"
+  }
+}
