@@ -14,14 +14,15 @@ public class ModItems {
     public static final RegistryObject<Item> END_TRIDENT_HEAD  = ITEMS.register("end_trident_head",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> END_TRIDENT  = ITEMS.register("end_trident",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<Item>  NETHER_TRIDENT_HEAD  = ITEMS.register("nether_trident_head",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NETHER_TRIDENT  = ITEMS.register("nether_trident",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
     public static final RegistryObject<Item> SHINING_WITHER_ROSE  = ITEMS.register("shining_wither_rose",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)));
 
 
 
