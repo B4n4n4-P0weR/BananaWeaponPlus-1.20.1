@@ -24,7 +24,8 @@ public class ModItems {
     public static final RegistryObject<Item> SHINING_WITHER_ROSE  = ITEMS.register("shining_wither_rose",
             () -> new Item(new Item.Properties().stacksTo(1)));
 
-
+    public static final RegistryObject<Item> BONK_BAT  = ITEMS.register("bonk_bat",
+            () -> new Item(new Item.Properties().stacksTo(1)));
 
     public static final RegistryObject<Item> HELL_OF_A_LIFE  = ITEMS.register("hell_of_a_life",
             () -> new Item(new Item.Properties()));

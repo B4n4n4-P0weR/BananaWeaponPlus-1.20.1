@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "pattern": [
+    "X",
+    "#",
+    "# "
+  ],
+  "result": {
+    "item": "banana_weapon_plus:bonk_bat"
+  },
+  "show_notification": true
+}

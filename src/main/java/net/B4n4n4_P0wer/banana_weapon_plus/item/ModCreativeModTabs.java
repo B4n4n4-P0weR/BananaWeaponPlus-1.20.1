@@ -29,6 +29,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.END_TRIDENT.get());
 
                         pOutput.accept(ModItems.SHINING_WITHER_ROSE.get());
+
+                        pOutput.accept(ModItems.BONK_BAT.get());
                     })
                     .build());
 
