@@ -1,6 +1,9 @@
 {
+  "item.banana_weapon_plus.clothed_ingot": "Clothed ingot",
+
   "item.banana_weapon_plus.nether_trident_head": "Nether trident head",
   "item.banana_weapon_plus.end_trident_head": "End trident head",
+
   "item.banana_weapon_plus.nether_trident": "Nether trident",
   "item.banana_weapon_plus.end_trident": "End trident",
 

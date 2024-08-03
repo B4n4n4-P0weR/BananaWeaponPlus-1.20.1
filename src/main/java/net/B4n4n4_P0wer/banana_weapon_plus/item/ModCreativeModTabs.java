@@ -18,8 +18,8 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.NETHER_TRIDENT.get()))
                     .title(Component.translatable("creativetab.banana_weapon_plus_tub"))
                     .displayItems((pParameters, pOutput) -> {
-
-//                        pOutput.accept(ModBlocks.RUBY_BLOCK.get());
+                        //Clothed ingot
+                        pOutput.accept(ModItems.CLOTHED_INGOT.get());
 
                         //Tridents
                         pOutput.accept(ModItems.NETHER_TRIDENT_HEAD.get());
